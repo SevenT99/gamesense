@@ -10,12 +10,6 @@ local select = {"AWP", "Scout", "Deagle"}
 local quickswitchdelayawp = ui.new_slider("misc", "miscellaneous", "Quick Switch Delay AWP",1,200)
 local quickswitchdelayssg = ui.new_slider("misc", "miscellaneous", "Quick Switch Delay SSG 08",1,200)
 local quickswitchdelaydeagle = ui.new_slider("misc", "miscellaneous", "Quick Switch Delay Deagle",1,200)
-ui.set_visible(quickswitchdelayawp,false)
-ui.set_visible(quickswitchdelayssg,false)
-ui.set_visible(quickswitchdelaydeagle,false)
-ui.set_visible(quickswitch,false)
-ui.set_visible(qkscopekey,false)
-ui.set_visible(qkscopeind,false)
 
 local function contains(table, val)
 
